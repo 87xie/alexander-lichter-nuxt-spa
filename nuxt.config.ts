@@ -11,10 +11,13 @@ export default defineNuxtConfig({
       }
     }
   },
+  experimental: {
+    componentIslands: true
+  },
   ssr: false,
-  router: {
-    options: {
-      hashMode: true
-    }
-  }
+  // router: {
+  //   options: {
+  //     hashMode: true
+  //   }
+  // }
 })
